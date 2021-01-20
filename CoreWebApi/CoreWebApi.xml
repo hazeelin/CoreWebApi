@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CoreWebApi</name>
+    </assembly>
+    <members>
+        <member name="M:CoreWebApi.Controllers.DCandidatesController.GetDCandidates">
+            <summary>
+            Get a list of Blood Donation candidates
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebApi.Controllers.DCandidatesController.GetDCandidate(System.Int32)">
+            <summary>
+            Get a list of Blood Donation candidates by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebApi.Controllers.DCandidatesController.PutDCandidate(System.Int32,CoreWebApi.Models.DCandidate)">
+            <summary>
+            Update a Blood Donation candidate by id
+            </summary>
+            <param name="id"></param>
+            <param name="dCandidate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebApi.Controllers.DCandidatesController.PostDCandidate(CoreWebApi.Models.DCandidate)">
+            <summary>
+            Create a Blood Donation candidate
+            </summary>
+            <param name="dCandidate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreWebApi.Controllers.DCandidatesController.DeleteDCandidate(System.Int32)">
+            <summary>
+            Delete a Blood Donation candidate
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
